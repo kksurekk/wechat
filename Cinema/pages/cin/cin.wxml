@@ -1,0 +1,23 @@
+<view class="wrap">
+  <view class="region">
+      <view class="area"><text class="cd">成都</text></view>
+      <view class="xia"><icon class="iconfont icon-xiajiantou1"></icon></view>
+       <button class="btn"><icon class="iconfont icon-sousuo"><text class="wb">找影院</text></icon></button>
+  </view>
+  <view class="info" wx:for="{{cinema}}" wx:key>
+     <view class="title">{{item.cinemaName}}</view><text class="Price">34<text class="samll">元起</text></text>
+     <view class="address">{{item.address}}</view>
+     <view class="Characteristic">
+        <text class="Cha">座</text>
+        <text class="Cha">杜比全景声厅</text>
+        <text class="Cha">改签</text>
+        <text class="Chara">小吃</text>
+        <text class="Chara">折扣卡</text>
+     </view>
+      <view class="phone">电话：{{item.telephone}}</view>
+     <view class="card_box"><text class="card">卡</text>现实￥2.9促销开卡，首单更优惠</view>
+    
+     <view class="distance">{{item.distance}}m</view>
+</view>  
+</view>
+

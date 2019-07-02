@@ -1,0 +1,32 @@
+<view class="container">
+    <view class="userinfo">
+         <button class="mybtn" wx:if="{{!hasUserInfo && canIUse}}" open-type="getUserInfo" bindgetuserinfo="getUserInfo">
+            请登录
+        </button>
+        <block wx:else>
+            <image class="userinfo-avatar" src="{{userInfo.avatarUrl}}" mode="cover"></image>
+            <text class="userinfo-nickname">{{userInfo.nickName}}</text>
+        </block>
+    </view>
+
+
+    <view class="wrap">
+        <view class="money">
+            <view class="left">
+              <view class="hb">红包</view> 
+              <text class="surplus">18个未使用</text>
+            </view>
+            <view class="right">
+              <view class="qb">钱包</view>
+              <text class="surplus">金币，金额</text>
+            </view>
+        </view>
+        <view class="other">
+            <view>我的订单</view>
+            <view>我的收藏</view>
+            <view>我的客服</view>
+            <view>我的评价</view>
+            <view>设置</view>
+        </view>
+    </view>
+</view>

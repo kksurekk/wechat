@@ -1,0 +1,15 @@
+<view class="box clearfix">
+    <view class="picture clearfix">
+        <image src='{{picture}}' class="pic"></image>
+    </view>
+    <view class="info clearfix">
+      <view class="title">{{shop}}</view>
+      <view class="describe">{{product}}</view>
+      <view class="price">￥{{price}}</view>
+      <view class='btn'>
+        <button class='btn--gray'  wx:if="{{ifCommented}}">已评价</button>
+        <button class='btn--red'  catch:tap="_commentEvent" wx:else>未评价</button>
+    </view>
+
+    </view>
+  </view>

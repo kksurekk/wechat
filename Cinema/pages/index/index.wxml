@@ -1,0 +1,36 @@
+
+<view class="wrap">
+  <view class="header">
+    <view class="area"><text class="cd">成都</text></view>
+    <view class="xia"><icon class="iconfont icon-xiajiantou1"></icon></view>
+    <view class="switch">
+      <view class="btn1">正在热映</view>
+      <view class="btn2">即将上映</view>
+    </view>
+    <view class="search">
+      <icon class="iconfont icon-sousuo"></icon>
+    </view>
+  </view>
+<view class="banner">
+  <swiper indicator-dots="{{indicatorDots}}" indicator-color="#a2a9af" indicator-active-color="#3a9ad9" autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}">
+    <block wx:for="{{imgUrls}}" wx:key>
+        <swiper-item>
+            <image src="{{item}}" class="slide-image" />
+        </swiper-item>
+    </block>
+  </swiper>
+</view>
+<view class="box clearfix"  wx:for="{{movieLists}}" wx:key bindtap='onMovieItemHandler' data-movieid='{{item.movieId}}'>
+    <view class="picture">
+        <image src='{{item.pic_url}}' class="pic"></image>
+    </view>
+    <view class="info">
+      <view class="title">{{item.movieName}}</view>
+      <view class="describe">原班人马 携手回归</view>
+      <view class="time">上映时间：2019-5-21</view>
+      <view class="score">9.0分</view>
+      <view class="duration">时长:123分钟</view>
+     <button class="btn">购票</button>
+    </view>
+  </view>
+</view>

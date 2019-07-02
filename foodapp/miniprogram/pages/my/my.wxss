@@ -1,0 +1,65 @@
+/* pages/my/my.wxss */
+.container {
+    padding: 70rpx 0;
+    box-sizing: border-box;
+    
+}
+.userinfo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.mybtn{
+    width:200rpx;
+    height:80rpx;
+    border-radius: 20rpx;
+    background:rgb(223, 251, 252);
+    color:#333;
+}
+.userinfo-avatar {
+    width: 140rpx;
+    height: 140rpx;
+    margin: 20rpx;
+    border-radius: 50%;
+}
+
+.userinfo-nickname {
+    color: #aaa;
+}
+
+.usermotto {
+    margin-top: 200px;
+}
+
+.wrap{
+    margin: 20rpx;
+    
+}
+.money{
+    height:160rpx;
+    padding:10rpx 30rpx;
+}
+.left,.right{
+    /* line-height:160rpx; */
+    width:290rpx;
+    height:160rpx;
+    padding:20rpx 10rpx;
+    background:rgb(185, 213, 231);
+    color:#fff;
+}
+.left{
+    float: left; 
+}
+.right{
+    float: right;
+}
+.other{
+    padding:40rpx;
+}
+.other view{
+    height:100rpx;
+}
+/* .hb{
+  display: block;
+} */

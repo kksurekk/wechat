@@ -1,0 +1,77 @@
+.main{
+  padding:0 20rpx;
+}
+.bg{
+  /* width:100%; */
+  position: relative;
+}
+.bgimg{
+   width:100%;
+}
+.title{
+  position: absolute;
+  left:20rpx;
+  bottom: 40rpx;
+  color: #fff;
+}
+.picture{
+  float:left;
+  margin-right: 40rpx;
+}
+.pic{
+  width:250rpx;
+  height:350rpx;
+}
+.info-box{
+  height:350rpx;
+  margin-bottom: 30rpx;
+}
+.info{
+  width:400rpx;
+  float:left;
+  padding-top: 3px;
+  
+}
+.type_box,.time,.country,.language,.duration{
+  font-size: 30rpx;
+  line-height: 2;
+}
+.type{
+  color:#666;
+}
+.per_title,.director{
+  height:80rpx;
+}
+.director,.Tostar{
+  font-size:30rpx;
+}
+.Tostar{
+  height:180rpx;
+}
+.Plot{
+  font-size:30rpx;
+  color:#333;
+}
+.btn{
+  background:#ffda8e;
+  margin-top:30rpx;
+}
+.read{
+  width:180rpx;
+  height:80rpx;
+  font-size: 28rpx;
+  border-radius: 20rpx;
+  float: right;
+}
+.common{
+  border:1px solid rgb(238, 238, 238);
+  padding:40rpx;
+}
+.intTitle{
+  margin: 40rpx 0;
+}
+.content{
+   /* border:1px solid rgb(226, 226, 226); */
+   margin:40rpx 0;
+    padding:20rpx 40rpx;
+}

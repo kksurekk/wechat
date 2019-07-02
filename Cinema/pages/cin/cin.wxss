@@ -1,0 +1,95 @@
+.wrap{
+ box-sizing:border-box;
+}
+.region{
+  padding:20rpx;
+  border-bottom: 1px solid rgb(223, 221, 221);
+  background:rgb(226, 226, 226);
+}
+.area,.xia{
+  float:left;
+  font-size: 32rpx;
+}
+.btn{
+  height:60rpx;
+  line-height: 60rpx;
+  border-radius: 20rpx;
+  border:1px solid rgb(219, 219, 219);
+}
+.icon-xiajiantou1{
+  font-size: 40rpx;
+}
+.icon-sousuo{
+  font-size: 32rpx;
+}
+.wb{
+   font-size: 24rpx;
+}
+.info{
+  padding:0 20rpx;
+  margin-top:36rpx;
+  position:relative;
+  border-bottom: 1px solid #dfdfdf;
+}
+.Price{
+  color:#f30;
+}
+.samll{
+  font-size: 26rpx;
+}
+.title{
+  float:left;
+  margin-right: 24rpx;
+  font-size: 36rpx;
+  color:#333;
+}
+.address{
+  font-size: 32rpx;
+  color:#777;
+  line-height: 2;
+}
+.Price{
+  font-size: 32rpx;
+}
+.Cha,.Chara{
+  font-size: 24rpx;
+  margin-right: 16rpx;
+  border-radius: 8rpx;
+  padding:4rpx;
+}
+.Cha{
+  border:1px solid #3a9ad9;
+  color:#3a9ad9;
+}
+.Chara{
+  border:1px solid #eeb765;
+  color:#eeb765;
+}
+.card{
+  background:#3a9ad9;
+  color:#fff;
+  border-radius: 8rpx;
+  font-size: 26rpx;
+  margin-right:20rpx;
+  padding:4rpx;
+}
+.card_box{
+   font-size: 24rpx;
+   color:#999;
+   margin: 20rpx 0 36rpx 0;
+
+}
+.distance{
+  float:right;
+  position:absolute;
+  right:20rpx;
+  top:50%;
+  margin-top:-30rpx;
+  color:#666;
+  font-size: 32rpx;
+}
+.phone{
+  font-size: 28rpx;
+  color:#999;
+  margin-top:20rpx;
+}

@@ -1,0 +1,45 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/detail/detail",
+    "pages/my/my",
+    "pages/cin/cin"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#3a9ad9",
+    "navigationBarTitleText": "友友影院",
+    "navigationBarTextStyle": "white"
+  },
+  "tabBar": {
+    "backgroundColor": "#eee",
+    "selectedColor": "#3a9ad9",
+    "color": "#a2a9af",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "影片",
+        "iconPath": "./images/index.png",
+        "selectedIconPath": "./images/index_act.png"
+      },
+      {
+        "pagePath": "pages/cin/cin",
+        "text": "影院",
+        "iconPath": "./images/dyyy.png",
+        "selectedIconPath": "./images/dyyy_act.png"
+      },
+      {
+        "pagePath": "pages/my/my",
+        "text": "我的",
+        "iconPath": "./images/my.png",
+        "selectedIconPath": "./images/my_act.png"
+      }
+    ]
+  },
+  "permission": {
+    "scope.userLocation": {
+      "desc": "你的位置信息将用于小程序位置接口的效果展示"
+    }
+  },
+  "sitemapLocation": "sitemap.json"
+}

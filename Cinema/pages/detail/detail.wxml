@@ -1,0 +1,52 @@
+<view class="main">
+    <view class="bg">
+        <image class="bgimg" src="{{movie.poster}}"></image>
+        <view class="title">{{movie.title}}</view>
+    </view>
+    <view class="info-box">
+    <view class="picture">
+       <image src="{{movie.poster}}" class="pic"></image>
+    </view>
+     <view class="info">
+        <van-rate value="{{ ratevalue }}" bind:change="onRateChange" />
+        <view class="type_box"><text class="type">类型：</text>{{movie.genres}}</view>
+        <view class="time"><text class="type">上映时间：</text>{{movie.release_date}}</view>
+        <view class="country"><text class="type">国家：</text>{{movie.country}}</view>
+        <view class="language"><text class="type">语言：</text>{{movie.language}}</view>
+        <view class="duration"><text class="type">时长：</text>{{movie.runtime}}</view>
+    </view>
+    </view>
+    <view class="personnel">
+        <view class="per_title">演职员表</view>
+         <view class="director"><text class="type">导演：</text>{{movie.directors}}</view>
+        <view class="Tostar"><text class="type">主演：</text>{{movie.actors}}</view>
+    </view>
+    <view class="Plot_title">
+        <view class="per_title">剧情简介</view>
+        <view class="Plot">{{movie.plot_simple}}</view>
+    </view>
+    <view class="introduce">
+        <view class="intTitle"><text class="com">观众评论</text></view>
+        <view class="assessconent" wx:for="{{commonLists}}" wx:key>
+      <view>
+        <text class="timer">{{item.time}}</text>
+        <image class="userimg" src="../../images/profile.png" />
+        <text class="user">{{item.user}}</text>
+      </view>
+      <view class="assessint">
+        <text class="iconfont dzimg"></text>
+        <text class="assesslr">{{item.content}}</text>
+      </view>
+    </view>
+        <view class='common'>
+        <van-cell-group>
+          <!-- <van-field value="{{ common_value }}" placeholder="请输入评论信息" bind:change="onCommonChange" /> -->
+          <van-rate value="{{ ratevalue }}" bind:change="onRateChange" />
+          <textarea class="content" value="{{ common_value }}" placeholder="请输入评论信息"  bind:change="onCommonChange"></textarea>
+          <van-button type="danger" size='large' bind:click="onConfirmCommon" >提交评论</van-button>
+          
+        </van-cell-group>
+      </view>
+ </view>
+</view>
+ <button class="btn" bindtap="onCinmailClick">购票</button>

@@ -1,0 +1,13 @@
+<!--index.wxml-->
+<view class="wrap">
+<view class="banner">
+<swiper indicator-dots="{{indicatorDots}}" indicator-color="#a2a9af" indicator-active-color="#3a9ad9" autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}">
+  <block wx:for="{{imgUrls}}" wx:key>
+      <swiper-item>
+          <image src="{{item}}" class="slide-image" />
+      </swiper-item>
+  </block>
+</swiper>
+</view>
+<orderItem wx:for="{{list}}" wx:key data-id="{{item.id}}" picture="{{item.picture}}" shop="{{item.shop}}" product="{{item.product}}"  price="{{item.price}}" ifCommented="{{item.ifCommented}}" bindtap="onProductDetailHandler" ifCommented-bindtap="addCartClick"></orderItem>
+</view>

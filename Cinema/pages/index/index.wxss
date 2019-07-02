@@ -1,0 +1,125 @@
+.wrap{
+  padding:0 20rpx;
+  position:relative;
+  box-sizing:border-box;
+}
+.header{
+  height:76rpx;
+  line-height: 76rpx;
+  margin:10rpx 0;
+}
+.slide-image{
+  width: 100%;
+}
+.area,.xia{
+  float:left;
+}
+.xia{
+    margin-right: 80rpx;
+    margin-top:5rpx;
+}
+.switch{
+  border:1px solid #eeb765;
+  height:70rpx;
+  float:left;
+  border-radius: 10rpx;
+}
+.btn1,.btn2{
+  float:left;
+  height:70rpx;
+  line-height: 70rpx;
+  text-align: center;
+  width:160rpx;
+  font-size: 30rpx;
+}
+.btn1{
+  color:#fff;
+  background:#eeb765;
+  border-top-left-radius: 10rpx;
+  border-bottom-left-radius: 10rpx;
+}
+.btn2{
+  color:#eeb765;
+}
+.search{
+  float:right;
+}
+.box{
+  margin-bottom: 30rpx;
+}
+.picture{
+  float:left;
+  margin-right:20rpx;
+}
+.pic{
+  width:300rpx;
+  height:350rpx;
+}
+.info{
+  padding:20rpx 0 50rpx 0;
+  width:380rpx;
+  float:left;
+  position: relative;
+  left:0;
+  top:0;
+
+}
+.title{
+  font-size: 36rpx;
+}
+.score{
+  position: absolute;
+  top:20rpx;
+  right:0;
+  font-size: 30rpx;
+  color:#eeb765;
+}
+.describe{
+  margin:12px 0;
+  font-size: 14px;
+  line-height: 2;
+  color:#666;
+}
+.time,.duration{
+   font-size: 14px;
+   color:#999;
+   margin-bottom: 30rpx;
+} 
+.btn{
+  background:#eeb765;
+  color:#555;
+  height:70rpx;
+  font-size: 14px;
+  position: absolute;
+  right:0;
+  bottom:10rpx;
+  border-radius:20rpx;
+}
+.banner{
+  margin-bottom: 20rpx;
+}
+.clearfix::after{
+  content: '';
+  display:block;
+  clear: both;
+}
+.clearfix{
+  zoom: 1;
+}
+.btn--gray{
+  font-size: 13px;
+  background-color: #ccc;
+  border-radius: 10rpx;
+}
+.btn--red{
+  font-size: 13px;
+  background-color: red;
+  color:#fff;
+  border-radius: 10rpx;
+}
+.icon-sousuo,.icon-xiajiantou1{
+  font-size: 46rpx;
+}
+.cd{
+  font-size: 34rpx;
+}
